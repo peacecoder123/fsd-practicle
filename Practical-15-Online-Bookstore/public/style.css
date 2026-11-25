@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; max-width: 1000px; margin: 40px auto; padding: 0 20px; background: #f0f2f5; }
+h1, h2 { color: #2c3e50; margin-bottom: 16px; }
+.books-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-bottom: 30px; }
+.book-card { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.book-card h3 { font-size: 1rem; margin-bottom: 6px; }
+.book-card p { color: #666; font-size: 0.9rem; margin-bottom: 4px; }
+.price { font-weight: bold; color: #e74c3c; font-size: 1.1rem; margin-bottom: 10px; }
+button { padding: 8px 16px; background: #3498db; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+button:hover { background: #2980b9; }
+.cart { background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+table { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #2c3e50; color: #fff; }
+.total { font-size: 1.3rem; font-weight: bold; color: #e74c3c; margin-bottom: 16px; }
+.btn-remove { background: #e74c3c; }
+.btn-remove:hover { background: #c0392b; }
+.btn-checkout { background: #2ecc71; font-size: 1rem; padding: 12px 30px; }
+.btn-checkout:hover { background: #27ae60; }
+.success { background: #2ecc71; color: #fff; padding: 20px; border-radius: 10px; text-align: center; font-size: 1.2rem; margin-top: 20px; }
