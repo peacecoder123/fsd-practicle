@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f0f2f5; padding: 40px 20px; }
+.container { max-width: 700px; margin: 0 auto; }
+h1 { color: #2c3e50; margin-bottom: 10px; }
+.total { font-size: 1.4rem; font-weight: bold; color: #e74c3c; margin-bottom: 20px; }
+.card { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 10px; }
+input, select { padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; flex: 1; min-width: 140px; }
+.card button, .filter button { padding: 10px 16px; background: #3498db; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
+.card button:hover { background: #2980b9; }
+.filter { margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filter button { background: #ecf0f1; color: #333; }
+.filter button.active { background: #3498db; color: #fff; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #2c3e50; color: #fff; }
+.btn-del { background: #e74c3c; color: #fff; border: none; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+.btn-del:hover { background: #c0392b; }
+.empty { color: #888; margin-top: 10px; }
