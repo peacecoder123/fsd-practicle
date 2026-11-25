@@ -1,0 +1,7 @@
+{
+  "name": "practical-13-async-event-loop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
